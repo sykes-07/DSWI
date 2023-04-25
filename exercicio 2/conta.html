@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <header>
+        <h1>Crei uma Nova Conta </h1>
+    </header>
+    <form action="/login" method="post">
+
+        <fieldset>
+            <h2>Conta</h2>
+            <Ul>
+                <li>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </li>
+                <li>
+                    <label for="sobrenome">sobrenome:</label>
+                    <input type="text" id="sobrenome" name="Sobreome">
+                </li>
+                <li>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="sobrenome">
+                </li>
+                <li>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha">
+                </li>
+                <li>
+                    <label for="RepitaSenha">Repita a senha:</label>
+                    <input type="password" id="RepitaSenha " name="RepitaSenha">
+                </li>
+            </Ul>
+        </fieldset>
+
+        <fieldset>
+            <h2>Endereço</h2>
+            <ul>
+                <li>
+                    <label for="Logadouro">Logadouro:</label>
+                    <input type="text" id="Logadouro" name="Logadouro">
+                </li>
+                <li>
+                    <label for="Complemento">Complemento:</label>
+                    <input type="text" id="Complemento" name="Complemento">
+                </li>
+                <li>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="Cidade" name="Cidade">
+                </li>
+                <li>
+                    <label for="estado">Estado:</label>
+                    <select name="estados" id="estados">
+                        <option value="escolha">Selecione o estado</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Paraiba">Paraiba</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="CEP">CEP:</label>
+                    <input type="text" id="CEP" name="CEP">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <h2>Pefil</h2>
+            <ul>
+                <li>
+                    <label for="foto">Foto:</label>
+                    <input type="file" id="foto" name="foto">
+                    <p>Tamanho máximo de 700k, JPG, GIF PNG.</p>
+                </li>
+                <li>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </li>
+                <li>
+                    <label for="site">Nome:</label>
+                    <input type="url" id="site" name="site">
+                    <p>Tem um site ou blog? Coloque o endereço aqui</p>
+                </li>
+                <li>
+
+                </li>
+
+            </ul>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
