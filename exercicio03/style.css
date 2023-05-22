@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+header{
+    font-size: 20px;
+}
+
+#body_produtos{
+    background-color: #21618c;
+    color: aliceblue;
+    text-align: center;
+
+}
+body{
+    background-color: #21618c;
+    color: aliceblue;
+
+}
+#p_home{
+    font-size: 19px;
+    text-align: center;
+
+}
+#p_missao{
+    font-size:  20px; 
+    text-align: center;
+    line-height: 3;
+}
+
+#p_S_S{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+footer{
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    background-color: #21618c;
+}
+
+#h1_paginas{
+    font-size: 50px;
+    line-height: 2;
+    text-align: center;
+
+}
+
+#h1_home{
+    font-size: 50px;
+    line-height: 4;
+    text-align: center;
+
+}
+
+
+#logo_img{
+    width: 70px;
+
+}
+div{
+    text-align: center;
+
+}   
+#papaleguas{
+    width: 200px;
+}
+#lobo{
+    width: 130px;
+    display: flex;
+}
+
+#h1_produtos{
+    font-size: 50px;
+    line-height: 5;
+  
+
+}
+#h2_P_S{
+    font-size: 20px;
+    line-height: 3;
+    text-align: center;
+
+}
+
+#img_produtos{
+    width: 89px;
+}
+#img_turma{
+    width: 200px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    list-style: none;
+}
+
+a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
